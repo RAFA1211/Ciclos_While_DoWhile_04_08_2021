@@ -23,17 +23,17 @@ papitas--;
 //     }
 // }
 
-// while(true){
-//     let usuario = prompt("Ingrese un usuario")
-//     let contrasena = prompt("Ingrese Contraseña")
-//     if(usuario== "Rafael" && contrasena== 123){
-//         alert("Bienvenido")
-//         break;
-//     } else{
-//         alert(`El usuario ${usuario} o la contraseña ${contrasena} están errados`);
-//         continue;
-//     }
-// }
+while(true){
+    let usuario = prompt("Ingrese un usuario")
+    let contrasena = prompt("Ingrese Contraseña")
+    if(usuario== "Rafael" && contrasena== 123){
+        alert("Bienvenido")
+        break;
+    } else{
+        alert(`El usuario ${usuario} o la contraseña ${contrasena} están errados`);
+        continue;
+    }
+}
 
 
 // do{
@@ -47,16 +47,16 @@ papitas--;
 // }
 
 
-do{
-    let usuario = prompt("Ingrese el usuario");
-    let contrasena = prompt("Ingrese el contraseña");
-    var bandera = {
-        usuario: usuario!="Miguel",
-        contrasena: contrasena!="123",
-        condicion: usuario!="Miguel" || contrasena!="123"
-    };
-    if(!bandera.condicion) alert(`Bienvenido Usario`);
-    if(bandera.usuario) alert(`El usuario ${usuario} no existe`);
-    if(bandera.contrasena) alert(`La contraseña ${contrasena} no existe`);
+// do{
+//     let usuario = prompt("Ingrese el usuario");
+//     let contrasena = prompt("Ingrese el contraseña");
+//     var bandera = {
+//         usuario: usuario!="Rafael",
+//         contrasena: contrasena!="123",
+//         condicion: usuario!="Rafael" || contrasena!="123"
+//     };
+//     if(!bandera.condicion) alert(`Bienvenido Usario`);
+//     if(bandera.usuario) alert(`El usuario ${usuario} no existe`);
+//     if(bandera.contrasena) alert(`La contraseña ${contrasena} no existe`);
 
-}while(bandera.condicion);
+// }while(bandera.condicion);
